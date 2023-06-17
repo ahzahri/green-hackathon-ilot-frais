@@ -53,3 +53,7 @@ Map.addLayer(image);
 ```javascript
 var point = ee.Geometry.Point(-122.262, 37.8719);
 ```
+
+## NASA API
+
+- Yacine's feedback: the NASA API seems more straightforward to use. But it's difficult to ease the assets endpoint to get images within a date range.

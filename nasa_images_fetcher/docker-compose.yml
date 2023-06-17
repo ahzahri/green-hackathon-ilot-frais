@@ -1,0 +1,8 @@
+services:
+  nasa-images-fetcher:
+    build:
+      context: .
+    # keep the container up on start
+    command: ["bash", "-c", "cd /home/images_fetcher/app && tail -f /dev/null"]
+    volumes:
+      - .:/home/images_fetcher/app
